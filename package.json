@@ -1,13 +1,18 @@
 {
-  "name": "node-sandbox",
+  "name": "e2esrapp-mern",
   "version": "1.0.0",
   "description": "Simple Node Sandbox",
-  "main": "src/index.js",
+  "main": "backend/src/index.js",
   "scripts": {
-    "start": "nodemon src/index.js localhost 8080"
+    "start": "nodemon backend/src/index.js localhost 2000"
   },
-  "dependencies": {},
+  "dependencies": {
+    "bootstrap": "4.3.1",
+    "react-router-dom": "5.1.2",
+    "style-loader": "1.0.0"
+  },
   "devDependencies": {
     "nodemon": "1.18.4"
-  }
+  },
+  "keywords": []
 }
